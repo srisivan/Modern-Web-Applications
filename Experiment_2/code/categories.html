@@ -1,0 +1,160 @@
+<!-- categories.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Online Bookstore</title>
+    <style>
+        body {
+            font-family: "Candara", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #1abc9c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #16a085;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #148f77;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            font-size: 18px;
+            font-family: "Candara";
+        }
+
+        .content a {
+            color: #007BFF;
+            text-decoration: none;
+            line-height: 1.6;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        .content h2 {
+            color: #1abc9c;
+            font-size: 28px;
+        }
+        footer {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .category {
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+        .category a {
+            color: hsl(221, 95%, 42%);
+            text-decoration: none;
+            font-family: "Candara";
+        }
+        .category a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Categories</h1>
+        <p><em>Find books that suit your taste</em></p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="content">
+        <h2>Explore Our Categories</h2>
+        <ul>
+            <li><a href="#fiction">Fiction</a></li>
+            <li><a href="#non-fiction">Non-Fiction</a></li>
+            <li><a href="#science-fiction">Science Fiction</a></li>
+            <li><a href="#biographies">Biographies</a></li>
+            <li><a href="#childrens">Children's Books</a></li>
+        </ul>
+
+        <div id="fiction" class="category">
+            <h2>Fiction</h2>
+            <ul>
+                <li><a href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby" target="_blank">The Great Gatsby, F. Scott Fitzgerald - 1925</a></li>
+                <li><a href="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice" target="_blank">Pride and Prejudice, Jane Austen - 1813</a></li>
+                <li><a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird" target="_blank">To Kill a Mockingbird, Harper Lee - 1960</a></li>
+                <li><a href="https://www.goodreads.com/book/show/40961427-1984" target="_blank">1984, George Orwell - 1949</a></li>
+                <li><a href="https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye" target="_blank">The Catcher in the Rye, J.D. Salinger - 1951</a></li>
+            </ul>
+        </div>
+
+        <div id="non-fiction" class="category">
+            <h2>Non-Fiction</h2>
+            <ul>
+                <li><a href="https://www.goodreads.com/book/show/23692271-sapiens" target="_blank">Sapiens, Yuval Noah Harari - 2011</a></li>
+                <li><a href="https://www.goodreads.com/book/show/35133922-educated" target="_blank">Educated, Tara Westover - 2018</a></li>
+                <li><a href="https://www.goodreads.com/book/show/6493208-the-immortal-life-of-henrietta-lacks" target="_blank">The Immortal Life of Henrietta Lacks, Rebecca Skloot - 2010</a></li>
+                <li><a href="https://www.goodreads.com/book/show/8664353-unbroken" target="_blank">Unbroken, Laura Hillenbrand - 2010</a></li>
+                <li><a href="https://www.goodreads.com/book/show/22609391-the-wright-brothers" target="_blank">The Wright Brothers, David McCullough - 2015</a></li>
+            </ul>
+        </div>
+
+        <div id="science-fiction" class="category">
+            <h2>Science Fiction</h2>
+            <ul>
+                <li><a href="https://www.goodreads.com/book/show/44767458-dune" target="_blank">Dune, Frank Herbert - 1965</a></li>
+                <li><a href="https://www.goodreads.com/book/show/375802.Ender_s_Game" target="_blank">Ender's Game, Orson Scott Card - 1985</a></li>
+                <li><a href="https://www.goodreads.com/book/show/22328.Neuromancer" target="_blank">Neuromancer, William Gibson - 1984</a></li>
+                <li><a href="https://www.goodreads.com/book/show/830.Snow_Crash" target="_blank">Snow Crash, Neal Stephenson - 1992</a></li>
+                <li><a href="https://www.goodreads.com/book/show/8909.The_War_of_the_Worlds" target="_blank">The War of the Worlds, H.G. Wells - 1898</a></li>
+            </ul>
+        </div>
+
+        <div id="biographies" class="category">
+            <h2>Biographies</h2>
+            <ul>
+                <li><a href="https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl" target="_blank">The Diary of a Young Girl, Anne Frank - 1947</a></li>
+                <li><a href="https://www.goodreads.com/book/show/11084145-steve-jobs" target="_blank">Steve Jobs, Walter Isaacson - 2011</a></li>
+                <li><a href="https://www.goodreads.com/book/show/38746485-becoming" target="_blank">Becoming, Michelle Obama - 2018</a></li>
+                <li><a href="https://www.goodreads.com/book/show/318431.Long_Walk_to_Freedom" target="_blank">Long Walk to Freedom, Nelson Mandela - 1994</a></li>
+                <li><a href="https://www.goodreads.com/book/show/23837258-my-experiments-with-truth?ref=nav_sb_ss_1_17" target="_blank">My Experiments with Truth, Mahatma Gandhi - 1927</a></li>
+            </ul>
+        </div>
+
+        <div id="childrens" class="category">
+            <h2>Children's Books</h2>
+            <ul>
+                <li><a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone" target="_blank">Harry Potter and the Sorcerer's Stone, J.K. Rowling - 1997</a></li>
+                <li><a href="https://www.goodreads.com/book/show/24178.Charlotte_s_Web" target="_blank">Charlotte's Web, E.B. White - 1952</a></li>
+                <li><a href="https://www.goodreads.com/book/show/1013383.The_Gruffalo" target="_blank">The Gruffalo, Julia Donaldson - 1999</a></li>
+                <li><a href="https://www.goodreads.com/book/show/39988.Matilda" target="_blank">Matilda, Roald Dahl - 1988</a></li>
+                <li><a href="https://www.goodreads.com/book/show/23772.Green_Eggs_and_Ham" target="_blank">Green Eggs and Ham, Dr. Seuss - 1960</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Online Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
