@@ -1,0 +1,156 @@
+body {
+    font-family: "Candara";
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Deep blue background */
+    color: #fff; /* White text for better contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #003366; /* Darker blue for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .category {
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #00ff7f; /* Light green for headings */
+    margin-bottom: 10px;
+  }
+  
+  .video-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video-thumbnail {
+    border: 0px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color: #002244;
+    color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: auto; /* Adjust width based on image */
+    max-width: 100%; /* Prevent it from exceeding container width */
+    height: auto; /* Allow height to adjust dynamically */
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05); /* Slightly enlarge the whole movie component */
+    border-radius: 16px; /* Make corners more rounded on hover */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Add subtle shadow effect */
+}
+
+.video-thumbnail img {
+    width: 100%; /* Image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 320px; /* Optional: Set a max width for larger screens */
+    border-radius: 12px; /* Rounded corners */
+    object-fit: contain; /* Ensure the full image fits */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.video-thumbnail img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+}
+.video-thumbnail h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdown button {
+    background-color: #00ff7f;
+    color: #001f3f;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown button:hover {
+    background-color: #00cc66;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    min-width: 140px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content button {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    color: #00ff7f;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+    background-color: #002244;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .video-thumbnail {
+    animation: fadeIn 0.5s ease-in-out;
+  }
