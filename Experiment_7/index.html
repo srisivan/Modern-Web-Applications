@@ -1,0 +1,50 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Hit Songs</title>
+    <script>
+        function loadXML() {
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "songs.xml", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    displaySongs(xhr.responseXML);
+                }
+            };
+            xhr.send();
+        }
+
+        function displaySongs(xml) {
+            let output = "";
+            const languages = xml.getElementsByTagName("language");
+            for (let i = 0; i < languages.length; i++) {
+                const langName = languages[i].getAttribute("name");
+                output += `<h2>${langName}</h2><ul>`;
+                const songs = languages[i].getElementsByTagName("song");
+                for (let j = 0; j < songs.length; j++) {
+                    let title = songs[j].getElementsByTagName("title")[0].textContent;
+                    let movie = songs[j].getElementsByTagName("movie")[0].textContent;
+                    let actor = songs[j].getElementsByTagName("actor")[0].textContent;
+                    let actress = songs[j].getElementsByTagName("actress")[0].textContent;
+                    let singer = songs[j].getElementsByTagName("singer")[0].textContent;
+                    let lyricist = songs[j].getElementsByTagName("lyricist")[0].textContent;
+                    let year = songs[j].getElementsByTagName("year")[0].textContent;
+                    let rating = songs[j].getElementsByTagName("rating")[0].textContent;
+                    output += `<li><strong>${title}</strong> (${movie}, ${year})<br>
+                               Actor: ${actor}, Actress: ${actress}<br>
+                               Singer: ${singer}, Lyricist: ${lyricist}<br>
+                               Rating: ${rating}/10</li>`;
+                }
+                output += "</ul>";
+            }
+            document.getElementById("songList").innerHTML = output;
+        }
+    </script>
+</head>
+<body onload="loadXML()">
+    <h1>Top Hit Songs</h1>
+    <div id="songList"></div>
+</body>
+</html>
