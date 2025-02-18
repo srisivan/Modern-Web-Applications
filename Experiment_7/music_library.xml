@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="music_library.xsl"?>
+<music_library>
+    <language name="English">
+        <song>
+            <title><![CDATA[Shape of You]]></title>
+            <movie><![CDATA[Single]]></movie>
+            <actor><![CDATA[Ed Sheeran]]></actor>
+            <actress><![CDATA[N/A]]></actress>
+            <singer><![CDATA[Ed Sheeran]]></singer>
+            <lyricist><![CDATA[Ed Sheeran]]></lyricist>
+            <year>2017</year>
+            <rating>9</rating>
+        </song>
+        <song>
+            <title><![CDATA[Blinding Lights]]></title>
+            <movie><![CDATA[After Hours]]></movie>
+            <actor><![CDATA[The Weeknd]]></actor>
+            <actress><![CDATA[N/A]]></actress>
+            <singer><![CDATA[The Weeknd]]></singer>
+            <lyricist><![CDATA[The Weeknd]]></lyricist>
+            <year>2020</year>
+            <rating>9.5</rating>
+        </song>
+        <song>
+            <title><![CDATA[Uptown Funk]]></title>
+            <movie><![CDATA[Single]]></movie>
+            <actor><![CDATA[Bruno Mars]]></actor>
+            <actress><![CDATA[N/A]]></actress>
+            <singer><![CDATA[Bruno Mars]]></singer>
+            <lyricist><![CDATA[Mark Ronson]]></lyricist>
+            <year>2014</year>
+            <rating>8.8</rating>
+        </song>
+    </language>
+    <language name="Hindi">
+        <song>
+            <title><![CDATA[Tum Hi Ho]]></title>
+            <movie><![CDATA[Aashiqui 2]]></movie>
+            <actor><![CDATA[Aditya Roy Kapur]]></actor>
+            <actress><![CDATA[Shraddha Kapoor]]></actress>
+            <singer><![CDATA[Arijit Singh]]></singer>
+            <lyricist><![CDATA[Mithoon]]></lyricist>
+            <year>2013</year>
+            <rating>9.2</rating>
+        </song>
+        <song>
+            <title><![CDATA[Chaiyya Chaiyya]]></title>
+            <movie><![CDATA[Dil Se]]></movie>
+            <actor><![CDATA[Shahrukh Khan]]></actor>
+            <actress><![CDATA[Malaika Arora]]></actress>
+            <singer><![CDATA[Sukhwinder Singh, Sapna Awasthi]]></singer>
+            <lyricist><![CDATA[Gulzar]]></lyricist>
+            <year>1998</year>
+            <rating>9.5</rating>
+        </song>
+        <song>
+            <title><![CDATA[Kal Ho Naa Ho]]></title>
+            <movie><![CDATA[Kal Ho Naa Ho]]></movie>
+            <actor><![CDATA[Shahrukh Khan]]></actor>
+            <actress><![CDATA[Preity Zinta]]></actress>
+            <singer><![CDATA[Sonu Nigam]]></singer>
+            <lyricist><![CDATA[Javed Akhtar]]></lyricist>
+            <year>2003</year>
+            <rating>9.1</rating>
+        </song>
+    </language>
+    <language name="Tamil">
+        <song>
+            <title><![CDATA[Rowdy Baby]]></title>
+            <movie><![CDATA[Maari 2]]></movie>
+            <actor><![CDATA[Dhanush]]></actor>
+            <actress><![CDATA[Saipallavi]]></actress>
+            <singer><![CDATA[Dhanush, Dhee]]></singer>
+            <lyricist><![CDATA[Poetu Dhanush]]></lyricist>
+            <year>2018</year>
+            <rating>9.3</rating>
+        </song>
+        <song>
+            <title><![CDATA[Vaathi Coming]]></title>
+            <movie><![CDATA[Master]]></movie>
+            <actor><![CDATA[Vijay]]></actor>
+            <actress><![CDATA[N/A]]></actress>
+            <singer><![CDATA[Anirudh Ravichander]]></singer>
+            <lyricist><![CDATA[Gana Balachander]]></lyricist>
+            <year>2021</year>
+            <rating>9.0</rating>
+        </song>
+        <song>
+            <title><![CDATA[Mukabla]]></title>
+            <movie><![CDATA[Kadhalan]]></movie>
+            <actor><![CDATA[Prabhu Deva]]></actor>
+            <actress><![CDATA[Nagma]]></actress>
+            <singer><![CDATA[Mano, Swarnalatha]]></singer>
+            <lyricist><![CDATA[Vairamuthu]]></lyricist>
+            <year>1994</year>
+            <rating>8.9</rating>
+        </song>
+    </language>
+</music_library>
