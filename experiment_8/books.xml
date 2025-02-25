@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <isbn>978-0743273565</isbn>
+        <publisher>Scribner</publisher>
+        <edition>1st</edition>
+        <price currency="USD">10.99</price>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <isbn>978-0451524935</isbn>
+        <publisher>Signet Classics</publisher>
+        <edition>1st</edition>
+        <price currency="USD">9.99</price>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <isbn>978-0061120084</isbn>
+        <publisher>Harper Perennial</publisher>
+        <edition>50th Anniversary</edition>
+        <price currency="USD">7.19</price>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <isbn>978-0316769488</isbn>
+        <publisher>Little, Brown and Company</publisher>
+        <edition>Reprint</edition>
+        <price currency="USD">8.99</price>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <isbn>978-1503290563</isbn>
+        <publisher>Createspace Independent Publishing</publisher>
+        <edition>Special Edition</edition>
+        <price currency="USD">6.99</price>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <isbn>978-0547928227</isbn>
+        <publisher>Mariner Books</publisher>
+        <edition>75th Anniversary</edition>
+        <price currency="USD">14.49</price>
+    </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <isbn>978-0060850524</isbn>
+        <publisher>Harper Perennial</publisher>
+        <edition>Reprint</edition>
+        <price currency="USD">11.29</price>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <isbn>978-0618640157</isbn>
+        <publisher>Houghton Mifflin Harcourt</publisher>
+        <edition>50th Anniversary</edition>
+        <price currency="USD">28.99</price>
+    </book>
+    <book>
+        <title>Crime and Punishment</title>
+        <author>Fyodor Dostoevsky</author>
+        <isbn>978-0486415871</isbn>
+        <publisher>Dover Publications</publisher>
+        <edition>Unabridged</edition>
+        <price currency="USD">5.95</price>
+    </book>
+</books>
