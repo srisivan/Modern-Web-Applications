@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT Entrance Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-screen">
+        <h2>VIT Entrance Quiz Login</h2>
+        <input type="email" id="email" placeholder="Enter your VIT email">
+        <button onclick="validateEmail()">Login</button>
+        <p id="error-message"></p>
+    </div>
+    
+    <div id="quiz-screen" style="display:none;">
+        <h2 id="round-title">Round 1: General Science</h2>
+        <div id="question-container"></div>
+        <p id="timer"></p>
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+    
+    <div id="result-screen" style="display:none;">
+        <h2>Your Result</h2>
+        <p id="final-score"></p>
+        <p id="admission-status"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
