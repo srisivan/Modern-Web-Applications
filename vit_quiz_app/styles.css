@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login Screen */
+#login-screen {
+    background: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100px;  /* Adjust width dynamically */
+    min-width: 150px; /*Ensures a reasonable size */
+    padding: 10px 15px; /* Reduces padding */
+    margin: 10px auto; /* Adds space between buttons and centers them */
+    font-size: 16px; /* Keeps text readable */
+    border-radius: 8px; /* Slightly rounded corners for better aesthetics */
+    border: 1px solid #444; /* Adds a subtle border */
+    cursor: pointer;
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Quiz Screen */
+#quiz-screen {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#question-container {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #e3e3e3;
+}
+
+/* Buttons inside question container */
+#question-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Timer */
+#timer {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Result Screen */
+#result-screen {
+    background: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Images */
+img {
+    max-width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
